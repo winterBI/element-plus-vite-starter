@@ -40,6 +40,15 @@ const value1 = ref(true)
     <el-button @click="count++">
       count is: {{ count }}
     </el-button>
+    <el-button plain @click="count++">
+      count is: {{ count }}
+    </el-button>
+    <el-button text @click="count++">
+      count is: {{ count }}
+    </el-button>
+    <el-button type="text" @click="count++">
+      count is: {{ count }}
+    </el-button>
     <el-button type="primary" @click="count++">
       count is: {{ count }}
     </el-button>

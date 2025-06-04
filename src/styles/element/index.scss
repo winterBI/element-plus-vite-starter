@@ -3,7 +3,7 @@ $--colors: (
     'base': green,
   ),
   'success': (
-    'base': #21ba45,
+    'base': #0a4b19,
   ),
   'warning': (
     'base': #f2711c,
@@ -39,4 +39,4 @@ $--colors: (
 // @debug $--colors;
 
 // custom dark variables
-@use './dark.scss';
+// @use './dark.scss';
